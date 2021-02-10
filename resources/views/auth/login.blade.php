@@ -52,5 +52,7 @@
                 </x-button>
             </div>
         </form>
+        <a href="{{ route('facebook_login') }}" class="btn btn-primary"> Login with Facebook</a>
+        <a href="{{ route('google_login') }}" class="btn btn-primary"> Login with Google</a>
     </x-auth-card>
 </x-guest-layout>
